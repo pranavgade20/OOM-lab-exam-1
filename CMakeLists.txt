@@ -3,4 +3,5 @@ project(OOM_Project)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(OOM_Project main.cpp Compressor.h Compressor.cpp CoolingUnit.cpp CoolingUnit.h CompressorSize.h AirConditioner.cpp AirConditioner.h Freezer.cpp Freezer.h)
+# just make an executable that contains code from all the files in this project
+add_executable(OOM_Project main.cpp Compressor.cpp CoolingUnit.cpp AirConditioner.cpp Freezer.cpp)
