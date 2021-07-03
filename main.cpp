@@ -5,11 +5,11 @@
 
 using namespace std;
 int main() {
-    Freezer freezer;
-    AirConditioner airConditioner;
+    Freezer freezer; // create a freezer
+    AirConditioner airConditioner; // create an air conditioner
 
     int opt = 0;
-    do {
+    do { // the event loop - gives the user options to interact with the freezer and air conditioner
         cout << "\n0. Exit\n"
                 "1. Set Air Condition required temperature\n"
                 "2. Set Air Condition current temperature\n"
